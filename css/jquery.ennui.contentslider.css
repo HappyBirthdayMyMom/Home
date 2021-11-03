@@ -6,9 +6,10 @@
   background: none; /* Background color for the entries */
 }
 .cs_leftBtn, .cs_rightBtn {
-  width: 50px; 
-  background: none;
+  width: 50px; /* Should be as wide as the button graphic being used */
+  background: none; /* This will probably match the contentslider bg color */
 }
+
 .contentslider {
   position:relative;
   display:block;
@@ -53,7 +54,7 @@
 
 .cs_article .slider_image {
 	float: left;
-	width: 300px;
+	
 	background: #1a191c;
 	padding: 8px;
 	border: 1px solid #000;
